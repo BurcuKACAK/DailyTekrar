@@ -1,4 +1,4 @@
-package javaquestionsbank.Ternary;
+package javaquestionsbank.ternary;
 
 import java.util.Scanner;
 
@@ -15,28 +15,10 @@ public class Ternary_03 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen Bir Sayi Giriniz");
-        double num = input.nextDouble();
+        int num = input.nextInt();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        String s = num % 10 >= 5 ? (num / 10+1)*10  + " Son basamagi bir ust ondaliga yuvarla" : (num / 10+1)*10   + " Son basamagi bir alt ondaliga yuvarla";
+        System.out.println(s);
 
     }
 }

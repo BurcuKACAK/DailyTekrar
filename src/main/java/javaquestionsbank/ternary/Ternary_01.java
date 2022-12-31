@@ -1,4 +1,4 @@
-package javaquestionsbank.Ternary;
+package javaquestionsbank.ternary;
 
 public class Ternary_01 {
     public static void main(String[] args) {

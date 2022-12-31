@@ -1,4 +1,4 @@
-package javaquestionsbank.Ternary;
+package javaquestionsbank.ternary;
 
 import java.util.Scanner;
 

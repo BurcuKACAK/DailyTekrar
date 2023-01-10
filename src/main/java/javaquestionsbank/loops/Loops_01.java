@@ -1,4 +1,4 @@
-package loops;
+package javaquestionsbank.loops;
 
 public class Loops_01 {
     public static void main(String[] args) {

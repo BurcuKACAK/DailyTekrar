@@ -11,7 +11,7 @@ public class Switch_01 {
         e) Diğerleri için "Geçersiz ay adı"
          */
 
-        String ayAdi = "Eylul";
+        String ayAdi = "Eylul ";
         ayAdi.toLowerCase();
 
         switch (ayAdi) {

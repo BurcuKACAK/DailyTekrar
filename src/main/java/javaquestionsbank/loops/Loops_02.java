@@ -7,20 +7,21 @@ public class Loops_02 {
         //Örneğin; accessories ´ ces
 
 
-        String a = "Madonna";
-        String b = "";
+        String str = "accessories";
+        String bos="";
 
-        for (int i = 0; i < a.length(); i++) {
-            String c = a.substring(i, i + 1);
-
-            if (a.indexOf(c) != a.lastIndexOf(c)) {
-                if (!b.contains(c)) {
-                    b += c;
+        for (int i = 0 ; i<str.length(); i++){
+            String harf = str.substring(i,i+1);
+            if (str.indexOf(harf)!=str.lastIndexOf(harf)){
+                if (!bos.contains(harf)){
+                    bos+=harf;
                 }
             }
+        }System.out.println(bos);
 
-        }
-        System.out.println(b);
+
+
+        System.out.println("******************************");
 
 
         String x = "Missisippi";
